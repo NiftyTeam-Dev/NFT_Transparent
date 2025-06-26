@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Twitter Bot Control Panel</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; text-align: center; }
+        input, button { padding: 10px; margin: 10px; }
+        button { background: #1DA1F2; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>🤖 Управление Twitter-ботом</h1>
+    <form action="/start_bot" method="post">
+        <input type="text" name="hashtag" placeholder="#NFT" required>
+        <button type="submit">Запустить автокомментирование</button>
+    </form>
+    <p>Бот будет искать посты по хэштегу, комментировать и подписываться на авторов.</p>
+</body>
+</html>
